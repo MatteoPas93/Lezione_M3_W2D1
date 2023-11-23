@@ -10,7 +10,7 @@ body {
   background-color: rgb(0, 214, 139);
 }
 
-.card {
+.cards__css {
   background-color: rgb(0, 214, 139);
   margin-top: 40px;
   box-shadow: 10px 10px 5px black;
@@ -26,7 +26,7 @@ body {
   margin-left: 10%;
 }
 
-.card:hover {
+.cards__css:hover {
   transform: scale(1.1);
   transition: 0.5s;
   cursor: pointer;
@@ -43,17 +43,13 @@ body {
 }
 
 .card__album {
-  flex: 1 1 180px !important;
-  max-width: 700px;
-}
-
-.card__album img {
-  aspect-ratio: 1;
-  object-fit: cover;
+  /* flex: 1 1 200px !important; */
+  /* max-width: 700px; */
+  height: 100%;
 }
 
 .song__list {
-  flex: 1 1 150px;
+  flex: 1 1 200px;
 }
 
 .list-group-item {
@@ -62,9 +58,16 @@ body {
 }
 
 #img__copertina {
-  width: 80%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  /* width: 100%; */
   flex: 1 1 200px !important;
   border-radius: 5px;
+}
+
+.img__album {
+ width: 400px;
+ 
 }
 
 .title {
@@ -92,5 +95,10 @@ body {
   border: 3px solid black;
   background-color: rgb(90, 90, 90);
   padding-inline: 20px;
+}
+
+.card__preferito {
+  background-color: rgb(90, 90, 90);
+  border: none;
 }
 

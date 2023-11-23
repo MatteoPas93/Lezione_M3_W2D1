@@ -59,7 +59,7 @@ const cards = function() {
     for (let i = 0; i < music.length; i++) {
         albaCards.innerHTML += `
         <div class="card__col d-flex col-5 col-md-4 col-lg-3 justify-content-center">
-        <div class="card d-flex align-items-center">
+        <div class="card cards__css d-flex align-items-center">
         <img src="./assets/alba.jpg"/>
         <h5> ${music[i].titolo}</h5>
         <p> ${music[i].durata} </p>

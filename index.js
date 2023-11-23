@@ -103,7 +103,7 @@ const cardContainer = document.querySelector(".card__container");
 
 const cards = function () {
   for (let i = 0; i < music.length; i++) {
-    cardContainer.innerHTML += `<div class="card d-flex align-items-center col-12 col-sm-6 col-md-4 col-lg-2 wrap">
+    cardContainer.innerHTML += `<div class="card cards__css d-flex align-items-center col-12 col-sm-6 col-md-4 col-lg-2 wrap">
     <img src="${music[i].img}"/>
     <h5> ${music[i].titolo} </h5>
     <p> ${music[i].artista} </p>
